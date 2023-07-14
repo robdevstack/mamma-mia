@@ -11,3 +11,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+li{
+  list-style: none;
+}
+.btn {
+  margin-right: 10px;
+}
+.mammamia {
+  text-decoration: none;
+}
+.clase {
+  background-color: #eee;
+}
+.logo {
+  text-decoration: none;
+}
+
+.cardd {
+  display: flex;
+  justify-content: center;
+}
+a {
+  text-decoration: none !important;
+  color: #eee;
+}
+.banner {
+  position: relative;
+  width: 100%;
+  margin: 0 auto; /* Centra el banner horizontalmente */
+  overflow: hidden; /* Oculta cualquier contenido que supere el ancho del banner */
+  margin-bottom: 5em;
+}
+
+.banner img {
+  width: 100%;
+  height: 440px;
+  display: block; /* Asegura que la imagen sea un bloque y no tenga espacios extra */
+  filter: brightness(50%); 
+}
+
+.banner .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.banner .overlay h1 {
+  color: white;
+  font-size: 32px; /* Ajusta el tamaño del texto según tus preferencias */
+}
