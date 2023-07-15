@@ -31,7 +31,7 @@ li{
   display: flex;
   justify-content: center;
 }
-a {
+ body a {
   text-decoration: none !important;
   color: #eee;
 }
@@ -61,4 +61,11 @@ a {
 .banner .overlay h1 {
   color: white;
   font-size: 32px; /* Ajusta el tamaño del texto según tus preferencias */
+}
+.precio {
+  text-align: center;
+}
+.nombre {
+  text-align: center;
+
 }

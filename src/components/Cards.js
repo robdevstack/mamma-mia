@@ -13,7 +13,7 @@ const Cards = ({pizza}) => {
     <Card style={{ width: '340px', margin: '1em' }}>
     <Card.Img variant="top" src={pizza.img} />
     <Card.Body>
-      <Card.Title>{pizza.name}</Card.Title> 
+      <Card.Title className='nombre'>{pizza.name}</Card.Title> 
       <Card.Text>
         <ul>
           {pizza.ingredients.map((ing, i) => {
@@ -21,6 +21,7 @@ const Cards = ({pizza}) => {
           })}
         </ul>
       </Card.Text>
+      <Card.Title className='precio'> ${pizza.price}</Card.Title> 
       <Button className='btn' variant="primary" onClick={() => navPizza(pizza.id)}>Detalles</Button>
       <Button variant="danger" onClick={() => agregarAlCarrito(pizza.id)}>Añadir al carrito</Button>
 
